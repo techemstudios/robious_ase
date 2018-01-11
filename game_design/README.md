@@ -17,6 +17,8 @@ Depending on the experience/age level, this class will use the app, Hyperpad and
 
 To start, the class will go through the general fundamentals of programming. This will help greatly when it comes to designing games on the iPad.  
 
+Again, depending on the crowd, determine whether to move forward designing games using Hyperpad or Hopscotch. The daily outline that follows will focus more on Hyperpad game design.  
+
 ## Daily Outline  
 
 ### Day 1  
