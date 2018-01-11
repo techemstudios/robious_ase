@@ -8,11 +8,44 @@ Have a *template* game already on the iPads labeled the school name. This will a
 Students will be able to -  
 * Have a general intro to programming  
 * Know how to approach designing a game with Design Thinking  
+* Have a complete sketch of their levels  
 * Be able to solve most problems on their own in Hyperpad app  
 * Have a finished, or at least good start to a game  
 
 ## Introduction  
 Depending on the experience/age level, this class will use the app, Hyperpad and/or Hopscotch to get an intro to game design. The concept of **design thinking** will be the main focus throughout the session. Design thinking is a user-centered approach to design in general.  
+
+To start, the class will go through the general fundamentals of programming. This will help greatly when it comes to designing games on the iPad.  
+
+## Daily Outline  
+
+### Day 1  
+
+#### 4:00 - 4:10 → Introductions & Objectives  
+* Who are you and what is Tech Em about
+* Any experience with designing/playing games?  
+
+#### 4:10 - 4:15 → Everything is an object/Computer do what they are told  
+Get students used to the idea of programming.  
+* We will be using the Hyperpad to create our games  
+  - Hyperpad uses a drag & drop style to programming, meaning you drag an instruction and drop an instruction, that object will follow any instruction you give it. That object will not do anything by itself  
+  - We can have objects interact with another by giving them conditional instructions to do so. For example, we can set up instructions that say, “**IF** the main character collides with an enemy or obstacle, **THEN** it is Game Over."    
+* Similar to Computers in general, they do only what they are told to do, and in the order you tell them to: they follow steps in a sequence i.e. in the order given. Like following a recipe  
+
+#### 4:15 - 4:30 → Lightbot: Engrain Human Given Instructions to a Computer (Programming)  
+Getting the students used to programming and drag & drop.  
+* Explain Lightbot, give a robot instructions to light up all the blue squares.  
+* The set of instructions is called a program. The robot follows the program, exactly.  
+* Pass around the iPad record sheet  
+* Stop Lightbot after 15 minutes!  
+
+#### 4:30 - 4:55 Design Your Game Levels!  
+Go over what makes a good level: collectibles, obstacles, traps, enemies etc.  
+* Pass out  level design sheets (the grid paper)  
+* Start designing your level by drawing on the template  
+* Have students think about blocks, coins, obstacles, puzzles  
+
+### Day 2  
 
 ## Core Computer Science Concepts  
 ### A.K.A. Buzz Words  
