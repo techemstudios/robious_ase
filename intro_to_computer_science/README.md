@@ -1,4 +1,4 @@
-# Intro to Computer Science - NextUp  
+# Robious Elem - Intro to Coding
 
 ### Introductions  
 
@@ -7,49 +7,71 @@
 * Grade  
 * Experience  
   - Any programming/coding experience?  
+  
+# Outline  
 
-### Objectives  
-##### What We'll Learn  
+#### Day 1  
 
-#### Core Computer Science Concepts  
+*4:00 - 4:10* - Introductions & Objectives  
+* Share names and grades  
+* Has anyone programmed (or coded) before?  
+* What is your favorite thing to do on the computer (or iPad)?  
 
-* Computational Thinking  
-  * Decomposition  
-    - Decompose: break down: divide & conquer  
-    - Break down a problem into smaller problems  
-  * Generalize   
-    - Be able to see the big picture  
-    - See how the smaller tasks make up the larger task  
-  * Recognize Patterns  
-    - Look for familiar things  
-    - Be able to see parts that repeat  
-    - Don't Repeat Yourself --> **DRY**  
-  * Algorithm Design  
-    - Make a plan to tackle the problem  
-    - Carry out the plan  
+*4:10 - 4:15* - What is Technology, What is Programming    
+* Ask the class what they think technology is  
+* Technology is anything created by humans to make our lives easier and to solve problems  
+* Discuss some examples of technology  
+* Ask class, have you followed directions before?  
+* Some technology comes with directions (step-by-step instructions on how to put it together or use it  
+* Some technology comes with directions already inside of it (i.e. computers, phones, iPads)  
+* To tell a computer, or phone what to do, someone had to program or code the computer; tell it what to do step-by-step.  
+* Discuss to class, we are here to learn how to code!  
+ 
+*4:15 - 4:25* - [Out-of-Seat Lightbot](https://github.com/techemstudios/robious_ase/blob/master/intro_to_computer_science/Mini_Lessons/out_of_seat_lightbot.pdf)  
+* Choose four volunteers to form two groups: each group = 1 programmer/1 robot  
+* Ask class which set of instructions was more efficient?  
+* Explain what it means to be efficient  
+
+*4:25 - 4:55* - LightBot Jr.  
+* Explain Lightbot; giving a robot instructions to light up the blue squares  
+* It cannot do this on its own, you have to ‘program’ it  
+* Reiterate programming is a human that gives a computer step-by-step instructions to do something  
+* Explain bugs/debugging  
+* Start the app on “saved slots”, record student names/ipad numbers   
+
+***  
+
+#### Day 2  
+
+*4:00 - 4:10* - Review  
+* Ask class difference between hardware and software  
+* What is a computer program?  
+* I/O devices?  
+
+*4:10 - 4:20*- Simulate a Program  
+* What happens when you start your favorite game?  
+* Simulate a Program exercise  
+  *  Choose three volunteers  
+  *  A program, bus, and CPU  
+
+* Explain Fetch, Decode, Execute cycle  
+  * Fetch: instructions from program are fetched  
+  * Decode: the instructions are understood by the CPU in binary  
+  * Execute: The CPU carries out the instructions  
+  * This happens when you start your favorite game and happens from the moment you turn the computer on.  
+
+*4:30 - 4:35* - Functions (Procedures, or even a routine)  
+* Ask class about their morning routine  
+  * Do they find themselves doing some of the same tasks every morning?  
+  * Do they notice they might do them in mostly the same order every morning?  
+* Briefly explain procedures in Lightbot  
+* If you see a pattern you can reuse, put that pattern of instructions in a procedure folder  
+* Procedures = Functions; their purpose is to reuse code to be more efficient  
+
+***  
 
 
-* Abstraction  
-  * Mental model, or way to think about something  
-    - Focus on what needs to be done in the moment  
-    - Leave only the information we need, to complete our goal  
-
-
-* Object Oriented Programming  
-  * OOP or OOD  
-    - Everything is an object having its own, or similar properties to other objects  
-    - Each object belongs to a *class*  
-
-
-* Development Process  
-**Write Simple Programs**  
-  * Take a systematic approach to create useful programs  
-    1. Analysis  
-    2. Specifications/guidelines
-    3. Design it  
-    4. Implement it  
-    5. Test/debug it  
-    6. Maintain it  
+## Objectives  
 
 ### How to Think  
 #### Like a Computer Scientist  
@@ -284,8 +306,6 @@ while True:
         exit()
 ```  
 
-
-
 ### Computer System Layers    
 #### Abstraction  
 
@@ -304,29 +324,3 @@ Abstraction Examples:
 * Fast Food Restaurant  
   - At many restaurants, the names of meals have corresponding numbers.
   - The food prep has been trained to recognize the meal number, not worry about the full name.  
-
-
-### Write Code like you Write a Story  
-
-Very important; make your code easy to read and understand. Write your program like you are writing a story about something. Stories are created for others to easily read and understand; otherwise, what is the point!? Heavily use comments in your code. This helps you and whoever is looks at your program, understand what's happening and how it's happening.  
-
-### Object Oriented Programming  
-
-As we talked about decomposing (divide and conquer) and generalization (seeing the big picture) in computational thinking, object oriented in a nutshell is to look at the interaction of simple *objects*, as being part of a complex system. Each object does something, it has its own set of properties and attributes (things it can do) and belongs to a *Class*. Let's look at an example of a dog named, Scrappy. We can say, Scrappy is a specific individual in a larger class, Dogs. In Object Oriented terms, Scrappy is a particular *instance* of the dog class. Since Scrappy is part of the dog class, we can assume certain things about him. Scrappy most likely has four legs, a tail, a wet nose, an age, and can bark. Now take a dog named, Lassy. She will have similar characteristics, but may only differ in behavior, size, or color. So, every object is an instance of some class. The class describes the general characteristics (or properties) an instance will have. The instance of the class will hold more specific properties and attributes.  
-
-### Development Process  
-
-#### Write SIMPLE Programs  
-
-*Zelle, John M. Python Programming: an Introduction to Computer Science. Franklin, Beedle & Associates, 2010*  
-
-**Analyze the Problem**  
-Figure out exactly what the problem is. What needs to be done.  
-**The Specs**  
-Determine the goals. Try out physically writing down or typing up comments/docstrings about what your program will do, what problem it will solve, the overall goal. Think abstraction; leave out the details about *how* your program will work, focus instead on *what* it will accomplish. For simple programs, just describe the inputs/outputs and how they relate.  
-**Design/Implement**  
-Lay out the program structure. Now you can focus on the *how*. As in computational thinking (mentioned earlier), design the algorithm or plan that will tackle the problem then, carry out the plan.  
-**Test/Debug**  
-Test out all parts of the program. Making a checklist may help. Does your program work as you expect it would? Don't worry, errors will be expected. Fix the errors, or debug the program.  
-**Maintain**  
-The more you continue developing the program, the more efficient it will be. Remember, engineers are concerned with building things to be the more and more efficient. Refactoring can come into play here. Getting user feedback will help in maintaining your program.  
