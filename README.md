@@ -14,6 +14,8 @@ All class lessons, materials and updates for Intro to Coding &amp; Game Design (
 
 </center>  
 
+## General First Day Outline  
+
 ### Introductions  
 *10 min*  
 * Tech Em Studios   
@@ -61,4 +63,4 @@ Ask for five volunteers. Give each volunteer a big binary flashcard (dark side o
 
 *20 min*  
 
-Give a short explanation of Lightbot. The app will help figure out the experience level of the students and get everyone used to the idea of giving a sequence of instructions to a computer.
+Give a short explanation of Lightbot. The app will help figure out the experience level of the students and get everyone used to the idea of giving a sequence of instructions to a computer.  
