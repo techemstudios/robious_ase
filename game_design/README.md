@@ -47,7 +47,44 @@ Go over what makes a good level: collectibles, obstacles, traps, enemies etc.
 * Start designing your level by drawing on the template  
 * Have students think about blocks, coins, obstacles, puzzles  
 
-### Day 2  
+***  
+
+## Day One  
+
+### Design Thinking  
+
+*15 min*  
+
+Ask the class what some of their favorite games are; what makes them fun. Explain that we'll use that feedback to start designing games.  
+
+Design Thinking Exercise: Pass out the exercise sheets, play three games on the Hyperpad app, take some notes on what you like and don't like about each game. Have students pick games from the Projects tab, nothing in the Hub (many games are unplayable due to the current app version).  
+
+### Level Design  
+
+*15 min*  
+
+Ask, what makes a good level in any game? Traps, collectibles, enemies, challenging (but, not too much that it is too frustrating to play), etc. Hand out and explain the level-design sheets. Have students start sketching out their levels.  
+
+### Hyperpad Walkthrough  
+
+Explain, everything in the app is an **object**. Quickly go over the interface.  
+
+Already have created games with assets.  
+
+* Get a background  
+
+* Turn grid lines on  
+
+* Placing Block Objects
+  - snapping them together  
+
+* Main Character Behaviors  
+  - controlling character movements  
+
+* Object Collisions  
+  - between character and object  
+  
+***  
 
 ## Core Computer Science Concepts  
 ### A.K.A. Buzz Words  
