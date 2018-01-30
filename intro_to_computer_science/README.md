@@ -309,7 +309,7 @@ while True:
 ### Computer System Layers    
 #### Abstraction  
 
-[Layers of Computer System Activity](https://github.com/techemstudios/nextup_lucille/blob/master/mini_lessons/computer_system_layers.pdf)  
+[Layers of Computer System Activity](https://github.com/techemstudios/NextUp/blob/master/2018/winter_2018/lucille_brown/intro_cs/mini_lessons/computer_system_layers.pdf)  
 
 *15 - 20 min*     
 
