@@ -159,82 +159,42 @@ Binary numbers use a Base 2 system, two digits:
 
 An all class activity to visually see how the binary number system operates by practicing a method that converts decimal numbers to binary. Ask for five volunteers. Give each volunteer a big binary flashcard (dark side of cards facing the class). Arrange the students to be in correct place value order. Write the number one on the board, use the cards and input from the class to have each volunteer flip the correct cards (turn "ON") to collectively show the number, one in binary. Do this for the numbers, 2 - 10. The class should progressively get quicker.  
 
-## Day One  
+# Day 3  
 
-### Python  
+Review definition of a computer program, concepts from LightBot, and Binary numbers. Segue into computers handling data, or information. Important to review what efficiency is, this will open conversation into quick computer history.  
 
-There are tons of different programming languages out there. We will learn how to write code in the Python programming language, an easy to read, understand and write language.  
+## Computer History  
 
-| Py Concepts  |
-|--------------|
-| Data Types   |
-| Variables    |
-| Expressions  |
-| Statements   |
-| Functions    |
-| Loops        |
-| Conditions   |
-| Objects      |
-| Classes      |  
+What is considered the first computer?  
 
-***  
+What students have guessed before: the apple computer, super computer, and others.  
 
-### Getting Started with Chromebooks (trusty)  
+Has anyone used tally marks? We can use them to help us keep track of counting something. One of the first *early* computers was **tally sticks**, prehistory! Early computers were tools to help people perform math. Tally sticks work in the same way as tally marks; they would help early humans count to numbers beyond the finger on their hand. They might have counted crops or other items. Humans then began to create more efficient tools such as the **Abacus**, a calculator.  
 
-```bash  
-mkdir your_name
-geany helloworld.py
-```  
+The transition from calculation to computation started with the **Babbage Machine**, an analytical *difference* engine created by Charles Babbage in 1836. Though, the machine was not actually built until the next century.  
 
-#### HelloWorld.py  
+Who is considered the first computer programmer? -The first computer programmer was Ada Lovelace. She actually wrote the programs for the Babbage machine.  
 
-Go over data types: strings, integers (INT), floats (FLOAT), boolean (BOOL). *see notes.py*  
+Ask students if they have heard of hardware and software. Does anyone know the difference between the two? -Hardware makes up the physical components of a computer, whereas software makes up the programs, or instructions that tell the hardware what to do. They work together and make a computer a computer, so without one or the other we would not have computers! Bring up the point that hardware would be dead weight without the programs to control it.  
 
-## Day Two  
+The advancements engineers made in hardware technology is categorized into generations.
 
-Review content from day one. Explain how to handle user input by starting to create a simple calculator program. Before typing any code, ask what we want this program to do:  
+Fast forward to 1946, advancements in computer hardware brought in the first *commercial computers*, first generation. One of these computers was called the ENIAC (Electronic Numerical Integrator and Computer). Computers in this generation took up the space of two or even three classrooms and they needed several people to operate them!  
 
-1) We want to ask a user for two numbers and we want to store those numbers in a variable, so we can later use them.  
+The main hardware component of these computers were **vacuum tubes**, switching devices with only two possible values, ON or OFF --think of lightbulbs. Pass around the vacuum tube example. Computers like the ENIAC had over 17,000 of these vacuum tubes! However, these pieces of hardware would overheat, burn out easily, so they would need constant replacement.  
 
-2) We need to get input from the user about which operation they want to perform on the two numbers.
+We had to come up with somewthing more efficient. Enter the 2nd Generation, 1959 - 1965. These electric computers, like the IBM 1401 were still big (took up about the same size as a teacher's desk). The vaccum tube as the main component of hardware was replaced by the more efficient **transistor** switching devices. Instead of having over 17,000 vacuum tubes, we only needed about 10,000 transistors to do the same job, and better. Transistors were more efficient at controlling the flow of electricty.  
 
-3) We'll need to check their text input to what operation symbol it matches with.
+[Transistor Activity]()
 
-4) Finally, we want to return the answer to the user.  
 
-```python  
-number1 = int(raw_input("Give me a number: "))
-number2 = int(raw_input("Give me another number: "))
-# with the raw_input() function, Python automatically thinks the text
-# from the user is a string. We add int() to convert the string to an integer
-# This will allow us to "mathematically" add the two numbers given by the user.
-
-operation raw_input("What operation would you like me to perform?")
-
-# our first condition statement (if this, then this)
-if operation == "+":
-  answer = number1 + number2
-
-print(answer)
-```  
-
-## Day Three  
-
-### Basic Calculator Program  
-
-Finish the calculator program by adding multi-way decision pattern, in other words `if-elif-else`.  
-
-[One way to finish a basic calculator program](https://github.com/techemstudios/nextup_lucille/blob/master/intro_to_computer_science/python_code/calculator.py)  
-
-***  
-
-## Day Four  
 
 ### Logic Gates  
 
 Review binary, value of 1 and zero and representations of each: 1 = On, True, Yes, etc.; 0 = Off, False, No, etc.  
 
 Devices that perform basic operation on electrical signals.  
+
 
 ### NOT, AND, OR  
 
@@ -243,68 +203,7 @@ How they operate, three ways we can represent them. Combine gates to form circui
 
 ***  
 
-## Day Five  
 
-see notes.py  
-
-### Random Number Game  
-
-#### Binary Search Tree  
-
-How a computer efficiently searches an ordered (sorted) list, ordered from lowest to highest. Think about the random number game. A person picks a number between a range of numbers and asks you to guess the number they picked. Each time the you guess, the person will tell you if your guess is higher or lower, compared to the number they picked.  
-
-Let's say the person picked a number between 1 and 100. Our logical first guess could be 50. If the person told you the number is higher, then the range of possible numbers is cut in half, 50-100. If you guess 75 (the middle of the range), you once again narrow the range of possible numbers. This is a systematic search approach called *binary search*. We know that binary means two. Looking back, each guess you made divided the remaining numbers into two parts.  
-
-Let's make the random number game a program in Python. Just as with the calculator program, we'll start with a systematic approach to developing our simple program. Determine the specifications ("specs" for short): 1) Have the computer choose a random number from a range of numbers, and store the number in a variable. 2) Clearly inform the user what the computer is asking of them 3) Determine a decision based on the user's input. That's it.  
-
-#### Program Design  
-
-Translate the specs into program form.  
-
-```python  
-# In order to use random methods, we need to import the random module
-import random
-
-# Spec #1:
-# Create a variable whos value is a randomly chosen number, from a range a numbers
-number = random.randint(1, 100)
-
-# Spec #2:
-print("I'm thinking of a number between 1-100")
-# Create a variable whose value is the number guessed by the user
-guess = int(raw_input("Guess a number between 1-100: "))
-
-# Spec #3:
-# Set up a few condition statements to compare the user's guess to the randomly picked number
-if guess > number:
-  # what happens when the user's guess is higher than number picked
-  print("Your guess is too high!")
-elif guess < number:
-  # What happens when the user's guess is lower than the number picked
-  print("Your guess is too low!")
-elif guess == number:
-  # what happens when the user guesses the number picked
-  print("You guessed correctly!")
-```  
-
-Our next step in our development process is to test the program. Our program works; however, if the user guesses too high or too low, the program ends. We can easily fix this by inserting a `while` loop. First, we'll add a flag,  `GameRunning` (or call it anything you want). This will act as a signal to the program which checks whether or not the game should keep running. As long as the flag is set to `True`, the program will continue; otherwise, the program will stop running when we set the flag's value to `False`. You can relate how a while loop works to the statement, "as long as...". A flag is one of a few methods to stop a while loop.  
-
-```python
-GameRunning = True
-while True:
-    guess = int(raw_input("Guess a number between 1-100: "))
-
-    if guess > number:
-        print("Your guess is too high!")
-    elif  guess < number:
-        print("Your guess is too low!")
-    elif guess == number:
-        print("You guessed correctly!")
-        # Since the user guessed correctly, set the flag to False
-        GameRunning = False
-        raw_input("\n\nPress enter key to exit ")
-        exit()
-```  
 
 ### Computer System Layers    
 #### Abstraction  
