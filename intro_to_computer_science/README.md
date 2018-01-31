@@ -197,7 +197,7 @@ The main hardware component of these computers were **vacuum tubes**, switching 
 
 #### Transistors = the *Building Blocks* of Computers  
 
-**Third Generation (1965-1971) - ** The first *desktop computers*. Engineers found ways to combine transistors to form circuits. Computers in this generation, like the  Datapoint 2200 only needed to use ~3,500 tranistors. We also learned to combine circuits with other circuits, called *integrated circuits*. By combining more and more circuits, we get more switches. *Remember, circuits are made from combining transistors, which are like digital switching devices.* The more switches, the more zeroes and ones. Since computers handle data in zeroes and ones, computers were able to handle more, faster when we add more combined circuits. Engineers could further connect and minimize the space taken up with microchips.  
+**Third Generation (1965-1971) -** The first *desktop computers*. Engineers found ways to combine transistors to form circuits. Computers in this generation, like the  Datapoint 2200 only needed to use ~3,500 tranistors. We also learned to combine circuits with other circuits, called *integrated circuits*. By combining more and more circuits, we get more switches. *Remember, circuits are made from combining transistors, which are like digital switching devices.* The more switches, the more zeroes and ones. Since computers handle data in zeroes and ones, computers were able to handle more, faster when we add more combined circuits. Engineers could further connect and minimize the space taken up with microchips.  
 
 #### Moore's Law  
 
