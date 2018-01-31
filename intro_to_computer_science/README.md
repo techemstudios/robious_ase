@@ -193,7 +193,7 @@ The main hardware component of these computers were **vacuum tubes**, switching 
 
 **Second Generation (1959 - 1965) -** We had to come up with somewthing more efficient. Enter the 2nd Generation, 1959 - 1965. These electric computers, like the IBM 1401 were still big (took up about the same size as a teacher's desk). The vaccum tube as the main component of hardware was replaced by the more efficient **transistor** switching devices. Instead of having over 17,000 vacuum tubes, we only needed about 10,000 transistors to do the same job, and better. Transistors were more efficient at controlling the flow of electricty.  
 
-[Transistor Activity]()  
+[Transistor Activity](https://github.com/techemstudios/robious_ase/blob/master/intro_to_computer_science/Mini_Lessons/transistor_exercise.pdf)  
 
 #### Transistors = the *Building Blocks* of Computers  
 
