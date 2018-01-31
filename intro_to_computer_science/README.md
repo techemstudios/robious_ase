@@ -1,4 +1,6 @@
-# Robious Elem - Intro to Coding
+# Robious - Intro to Coding
+
+Grades: K-3  
 
 ### Introductions  
 
